@@ -1,0 +1,91 @@
+body{
+    background-color: hsl(208, 22%, 86%);
+       /* background-image: url(img/fon.jpg); */
+       height: 68vh;
+  }
+
+.block-container{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 10%;
+    /* margin: 10px 10px 10px 30px; */
+    /* width: 80%; */
+    justify-content:center;
+    justify-items: center;
+    justify-self: center;
+    align-self: auto;
+    align-items: center;
+    align-content: center;
+    
+
+}
+.logosize{
+    width: 100%;
+    height: auto;
+}
+ .item{
+    align-items:center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: auto;
+}
+.text{
+    /* size: 22px; */
+    color: rgb(58, 63, 63);
+    text-align: justify;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 4%;
+
+    /* font-style: ; */
+    /* margin: 20px 60px 15px 80px; */
+    /* width: 80%; */
+    /* align-self: center;  */
+    /* align-content: center;
+    align-items: center; */
+}
+.akcent{
+    /* color: red; */
+    color: white;
+    /* color: hsl(249, 100%, 13%); */
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+    /* text-shadow:white -2px -2px 0, 
+    blue 1px 1px 0; */
+    /* text-shadow:blue 0px 0px 6px; */
+    text-shadow:hsl(249, 100%, 13%) 1px 1px 1px,hsl(249, 100%, 13%) -1px -1px 1px, 
+    hsl(249, 100%, 13%) -1px 1px 1px, hsl(249, 100%, 13%) 1px -1px 1px;
+
+}
+a >.akcent:hover{
+    /* color: hsl(249, 100%, 13%); */
+color: white;
+    text-shadow:#E03237 1px 1px 1px,#E03237 -1px -1px 1px, 
+    #E03237 -1px 1px 1px, #E03237 1px -1px 1px;
+     /* text-shadow:hsl(249, 100%, 13%) 1px 1px 1px,hsl(249, 100%, 13%) -1px -1px 1px, 
+    hsl(249, 100%, 13%) -1px 1px 1px, hsl(249, 100%, 13%) 1px -1px 1px; */
+
+}
+
+/* .text-block{
+    display: grid;
+    justify-content:center;
+} */
+a{
+    text-decoration: none;
+}
+/* .clear_block{
+    height: 150px; */
+   /* background-color:white; */
+/* } */
+.icosize{
+    width: 60px;
+}
+
+a >.icosize:hover{
+    opacity: 0.7;
+}

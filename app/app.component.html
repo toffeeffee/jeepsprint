@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+	<title></title>
+</head>
+
+<div class='page'>
+	<div class="container">
+		<nav class="navbar navbar-expand-md fixed-top navbar-white bg-black">
+			<div class="logo">
+				<img  class='logosize' src="app/img/logo.png"  />
+			</div>
+			<div class='clear'>
+				<div class='slogan-text'> 
+					ВІДЧУТИ СЕБЕ <span class='akcent-text'> ГОНЩИКОМ </span>МОЖЕ КОЖЕН
+				</div>
+				<div> 
+					<div class="navbar-nav item-menu" *ngFor="let index of menuSite | slice:0:6" >
+						<div class="item">
+							<a  routerLink={{index.routLink}} routerLinkActive="active" style="text-transform: uppercase;" >{{index.menuItem}}</a>
+							<ul class='submenu' *ngFor= "let i of index.subItem">
+								<li class="point"><a routerLink={{i.routLink}} routerLinkActive="active" style="text-transform: uppercase;">{{i.menuItem}}</a></li>               
+							</ul>
+
+						</div>
+					</div>
+				</div>				
+			</div>
+		</nav>
+	</div>
+	<div class="clear_block"></div>
+
+
+	
+	<!-- <div id='etap' class='subgrid-etap' >
+	<div class='item-menu-etap point-etap' *ngFor="let index of menuSite | slice:1:2"  >
+			<span  class='point' *ngFor= "let i of index.subItem">
+				<a routerLink={{i.routLink}} routerLinkActive="active" style="text-transform: uppercase;">{{i.menuItem}}</a> -->
+				<!-- <ul *ngFor= "let i of index.subItem">
+					<li class="point"><a routerLink={{i.routLink}} routerLinkActive="active" style="text-transform: uppercase;">{{i.menuItem}}</a></li>               
+				</ul> -->
+			<!-- </span>
+	</div>
+   </div> -->
+
+
+
+
+<!-- <div class='container' >
+	<div class="navbar navbar-expand-md fixed-top navbar-white bg-white mb-0"> 
+		<div class="grid">
+			<div class='logo'>
+				<img  class='logosize' src="app/img/logo.png"  />
+			</div>
+			<div class='slogan slogan-text'> 
+				ВІДЧУТИ СЕБЕ <span class='akcent-text'> ГОНЩИКОМ </span>МОЖЕ КОЖЕН
+			</div>
+			<div class='mainmenu' >
+				<div class='subgrid'> 
+					<ul class="item-menu" *ngFor="let index of menuSite | slice:0:6">
+						<div>
+							<a routerLink={{index.routLink}} routerLinkActive="active" style="text-transform: uppercase;">{{index.menuItem}}</a>
+							<div class="submenu">
+								<ul *ngFor= "let i of index.subItem">
+									<li class="point"><a routerLink={{i.routLink}} routerLinkActive="active" style="text-transform: uppercase;">{{i.menuItem}}</a></li>               
+								</ul>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>	
+		</div>	
+	</div>
+	  
+</div> -->
+<!-- <main> -->
+	
+	<article id="sample-panel" >		
+		<router-outlet></router-outlet>
+	</article>
+	<!-- <ul  class="item" *ngFor="let index of menuSite | slice:6:7">
+		<div>
+			<div>
+				<ul *ngFor= "let i of index.subItem">
+					<li style="list-style-type: none;"><a routerLink={{i.routLink}} routerLinkActive="active">{{i.menuItem}}</a></li>               
+				</ul>
+			</div>
+		</div>
+	</ul> -->
+<footer>
+	<div><a href="https://www.facebook.com/jeepsprint/"><img  class='icon-size' src="app/img/facebook-w.png"  /></a></div>
+	<div><a href="https://www.youtube.com/channel/UCt7gOy5FpX1QFsWrnHBB9ig"><img  class='icon-size' src="app/img/youtube-w.png"  /></a></div>
+	<div><a href="https://www.instagram.com/jeepsprint/"><img  class='icon-size' src="app/img/instagram-w1.png"  /></a></div>
+
+</footer>
+<!-- </main> -->
+
+</div>

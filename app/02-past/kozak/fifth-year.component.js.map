@@ -1,0 +1,1 @@
+{"version":3,"file":"fifth-year.component.js","sourceRoot":"","sources":["fifth-year.component.ts"],"names":[],"mappings":";;;;;;;;AAAA,sCAA0C;AAU1C;IAAA;IAEA,CAAC;IAFY,kBAAkB;QAR9B,gBAAS,CAAC;YACP,QAAQ,EAAE,MAAM,CAAC,EAAE;YACnB,QAAQ,EAAE,YAAY;YACtB,WAAW,EAAE,2BAA2B;YACxC,SAAS,EAAE;gBACP,0BAA0B;aAC7B;SACJ,CAAC;OACW,kBAAkB,CAE9B;IAAD,yBAAC;CAAA,AAFD,IAEC;AAFY,gDAAkB"}

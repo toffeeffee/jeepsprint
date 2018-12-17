@@ -1,0 +1,22 @@
+				<!-- bootstrap menu -->
+				<!-- <div> 
+					<div class="navbar-nav item-menu" *ngFor="let index of menuSite | slice:0:1" >
+						<div class="item">
+							<a  routerLink={{index.routLink}} routerLinkActive="active" style="text-transform: uppercase;" >{{index.menuItem}}</a>
+						</div>
+					</div>
+					<div class="navbar-nav item-menu" *ngFor="let index of menuSite | slice:1:2" >
+						<div class="nav-item dropdown">
+							<a class="nav-link" data-toggle="dropdown" routerLink={{index.routLink}} routerLinkActive="active" style="text-transform: uppercase;" >{{index.menuItem}}</a>
+							<div class="dropdown-menu" >
+
+							<div *ngFor= "let i of index.subItem">
+								<a class="dropdown-item point" routerLink={{i.routLink}} routerLinkActive="active" style="text-transform: uppercase;">{{i.menuItem}}</a>             
+							</div></div>
+						</div>
+					</div>
+					<div class="navbar-nav item-menu" *ngFor="let index of menuSite | slice:2:6" >
+						<div class="item">
+							<a  routerLink={{index.routLink}} routerLinkActive="active" style="text-transform: uppercase;" >{{index.menuItem}}</a>
+						</div>
+					</div> -->

@@ -1,0 +1,100 @@
+.fon{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/fon.png);
+}
+.block-container{
+    width: 80%;
+    align-content: center;
+    clear: both;
+  }
+  
+.grid{
+  display: grid;
+  grid-template-columns:  80%;
+  grid-template-rows: 8%;
+  grid-gap: 1%;
+  justify-content:center;
+  justify-items: flex-start;
+  justify-self: center;
+  align-self: auto;
+  align-items: center;
+  align-content: center;
+}
+  .grid-4{
+    display: grid;
+  grid-template-columns:  20% 20% 20% 20%;
+  grid-gap: 1%;
+  justify-content:center;
+  justify-items: center;
+  justify-self: center;
+  align-self: auto;
+  align-items: center;
+  align-content: center;
+  }
+  .img-grid-block{
+    justify-self: center;
+    text-align: center;
+  }
+  
+  .text{
+    /* size: 22px; */
+    color: rgb(54, 71, 71);
+    /* color:  */
+    text-align: center;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    /* font-weight: 200; */
+  
+    /* font-style: ; */
+    margin: 2% 10px 15px 10px;
+    /* width: 80%; */
+    /* align-self: center;  */
+    /* align-content: center;
+    align-items: center; */
+  }
+  
+  .akcent{
+    /* color: red; */
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    /* text-shadow:white -2px -2px 0, 
+    blue 1px 1px 0; */
+    /* text-shadow:blue 0px 0px 6px; */
+    /* text-shadow:rgb(35, 160, 160) 1px 1px 1px,rgb(35, 160, 160) -1px -1px 1px, 
+    rgb(35, 160, 160) -1px 1px 1px, rgb(35, 160, 160) 1px -1px 1px; */
+    text-shadow: hsl(249, 100%, 13%) 1px 1px 1px,hsl(249, 100%, 13%) -1px -1px 1px, 
+    hsl(249, 100%, 13%) -1px 1px 1px, hsl(249, 100%, 13%) 1px -1px 1px;
+  
+    /* float:right; */
+    
+    margin: 2% 40px 0 0 ;
+  
+  }
+  
+  a{
+    text-decoration: none;
+    color: hsl(248, 89%, 37%);
+  }
+  a:hover{
+    /* text-decoration: none; */
+    opacity: 0.5;
+  }
+  a >.icosize:hover{
+    opacity: 0.5;
+  }
+  .imgblock{
+    width: 100%;
+    height: auto;
+    /* margin: 5px 5px 5px 5px; */
+    transition: all 0.5s;
+  
+  }
+  .imgblock:hover{
+    transform: scale(1.7);
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* width: 99%; */
+    /* height: auto; */
+  }

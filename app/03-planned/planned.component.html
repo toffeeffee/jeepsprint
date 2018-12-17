@@ -1,0 +1,111 @@
+<!-- <h2>planned page</h2> -->
+<!-- <table class="table table-striped"> -->
+    <!-- <tr>
+        <td> -->
+<!-- добавление автора -->
+<!-- <button type="button" class="btn btn-primary" (click)="VisiblElement()">Добавить автора</button> -->
+<!-- <div *ngIf="visible">
+    <input type="text"  id="nameAutor" [(ngModel)]="nameAutor"> 
+    <input type="text"  id="secnameAutor" [(ngModel)]="secnameAutor"> 
+    <input type="text"  id="surnameAutor" [(ngModel)]="surnameAutor"> 
+    <input type="date"  id="birthdatAutor" [(ngModel)]="birthdayAutor"> 
+    <p>Book of this autor</p> -->
+    <!-- <input type="text"  id="nameBook" [(ngModel)]="nameBook">
+    <input type="text"  id="pageBook" [(ngModel)]="pageBook"> -->
+    <!-- <input type="text"  id="categoryBook" [(ngModel)]="categoryBook"> -->
+    <!-- <select [(ngModel)]="categoryBook"> // value is a string or number
+            <option value="poem">poem</option>
+            <option value="drama">drama</option>
+            <option value="comedy">comedy</option> -->
+            <!-- <option *ngFor="let categoryItem of categoryTable" [value]="categoryItem.value">{{categoryItem.name}}</option> -->
+    <!-- </select> -->
+<!-- <button type="button" class="btn btn-primary" (click)="addAutor()">ОК</button>
+</div>
+</td> -->
+<!-- <td></td>
+</tr> -->
+<!-- <tr>
+    <td>
+<ul *ngFor="let index of autorTable">
+    <li> <strong>{{index.name}} {{index.secondName}} {{index.surname}}</strong>
+         <button type="button" class="btn btn-primary" (click)="deletedAutor(index)">Удалить автора</button>
+         <button type="button" class="btn btn-primary" (click)="VisiblElement()">Редактировать автора</button>
+            <div *ngIf="visible">
+                <li>
+                    <input type="text"  id="nameAutor" [(ngModel)]="nameAutor">
+                    <input type="text"  id="secnameAutor" [(ngModel)]="secnameAutor">
+                    <input type="text"  id="surnameAutor" [(ngModel)]="surnameAutor">
+                    <input type="date"  id="birthdatAutor" [(ngModel)]="birthdayAutor">
+                    <button type="button" class="btn btn-primary" (click)="editAutorOK(index)">OK</button>
+                </li>
+            </div> -->
+            
+    <!-- </li>
+    <li>
+        Дата рождения: {{index.birthday}}
+    </li>
+    <li>
+        Список книг:
+    </li>
+
+    <button type="button" class="btn btn-primary" (click)="VisiblElement()">Добавить книгу</button>
+<div *ngIf="visible">   
+        <li>
+        <input type="text"  id="nameBook" [(ngModel)]="nameBook">
+        <input type="text"  id="pageBook" [(ngModel)]="pageBook"> -->
+        <!-- <input type="text"  id="categoryBook" [(ngModel)]="categoryBook"> -->
+        <!-- <select [(ngModel)]="categoryBook"> // value is a string or number
+                <option value="poem">poem</option>
+                <option value="drama">drama</option>
+                <option value="comedy">comedy</option> -->
+                <!-- <option *ngFor="let categoryItem of categoryTable" [value]="categoryItem.value">{{categoryItem.name}}</option> -->
+        <!-- </select> -->
+
+        <!-- <button type="button" class="btn btn-primary" (click)="addBook(index)">OK</button>
+        </li>
+    </div>
+    <ul *ngFor= "let i of index.bookList">
+               <li>{{i.bookName}} на {{i.page}} страницах, жанр: {{i.category}}
+                <button type="button" class="btn btn-primary" (click)="deleteBook(index,i)">Удалить книгу</button>
+                <button type="button" class="btn btn-primary" (click)="VisiblElement()">Редактировать книгу</button>
+                   <div *ngIf="visible">
+                       <li>
+                        <input type="text"  id="nameBook" [(ngModel)]="nameBook">
+                        <input type="text"  id="pageBook" [(ngModel)]="pageBook"> -->
+                        <!-- <input type="text"  id="categoryBook" [(ngModel)]="categoryBook"> -->
+                        <!-- <select [(ngModel)]="categoryBook"> // value is a string or number
+                                <option value="poem">poem</option>
+                                <option value="drama">drama</option>
+                                <option value="comedy">comedy</option> -->
+                                <!-- <option *ngFor="let categoryItem of categories" [value]="obj.value">{{obj.name}}</option> -->
+                        <!-- </select>
+                        <button type="button" class="btn btn-primary" (click)="editBookOK(index,i)">OK</button>
+                       </li>
+                   </div>
+       
+               </li>               
+   </ul>
+</ul>
+</tr>
+</table> -->
+<table class="table table-striped text" style="width:80%;">
+    <tr style="color:hsl(249, 100%, 13%); border-bottom: 2px solid ">
+        <th>Дата проведення</th>
+        <th>Дисципліна</th>
+        <th>Назва</th>
+        <th>Місце проведення</th>    
+    </tr>
+    
+    <tr *ngFor="let index of planned">
+        <td> {{index.data}} </td>
+        <td> {{index.disc}} </td>
+        <td> {{index.event}} </td>
+        <td> {{index.place}} </td>          
+    </tr>
+     
+</table>
+<div style="height: 220px;"></div>
+<!-- <button (click)="f()">Hide</button> -->
+<!-- <input type="number" [(ngModel)]="someNumberForColor">
+
+*ngIf="selectedPhraseLanguage" если выражение хранит значение true элемент будет добавлен в DOM-->
